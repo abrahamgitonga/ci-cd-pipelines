@@ -21,5 +21,10 @@ pipeline{
                 echo 'Cleaning up...'
             }
         }
+        stage('Final Stage'){
+            steps{
+                echo 'Finalizing...'
+            }
+        }
     }
 }
