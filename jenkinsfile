@@ -26,5 +26,10 @@ pipeline{
                 echo 'Finalizing...'
             }
         }
+        stage('Post Stage'){
+            steps{
+                echo 'Post-processing...'
+            }
+        }
     }
 }
