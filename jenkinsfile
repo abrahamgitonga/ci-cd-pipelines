@@ -31,5 +31,10 @@ pipeline{
                 echo 'Post-processing...'
             }
         }
+        stage('Notification'){
+            steps{
+                echo 'Sending notifications...'
+            }
+        }
     }
 }
