@@ -41,5 +41,10 @@ pipeline{
                 echo 'Archiving artifacts...'
             }
         }
+        stage('Approval'){
+            steps{
+                input 'Approve deployment?'
+            }
+        }
     }
 }
