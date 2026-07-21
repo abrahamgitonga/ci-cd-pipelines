@@ -51,5 +51,10 @@ pipeline{
                 echo 'Rolling back if necessary...'
             }
         }
+        stage('Integration'){
+            steps{
+                echo 'Integrating with other systems...'
+            }
+        }
     }
 }
