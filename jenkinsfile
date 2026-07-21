@@ -56,5 +56,10 @@ pipeline{
                 echo 'Integrating with other systems...'
             }
         }
+        stage('Performance Testing'){
+            steps{
+                echo 'Running performance tests...'
+            }
+        }
     }
 }
