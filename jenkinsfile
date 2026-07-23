@@ -61,5 +61,10 @@ pipeline{
                 echo 'Running performance tests...'
             }
         }
+        stage('Security Scan'){
+            steps{
+                echo 'Performing security scan...'
+            }
+        }
     }
 }
