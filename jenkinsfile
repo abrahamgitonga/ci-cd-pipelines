@@ -66,5 +66,10 @@ pipeline{
                 echo 'Performing security scan...'
             }
         }
+        stage('Documentation'){
+            steps{
+                echo 'Generating documentation...'
+            }
+        }
     }
 }
