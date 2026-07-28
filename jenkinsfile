@@ -76,5 +76,10 @@ pipeline{
                 echo 'Final cleanup...'
             }
         }
+        stage('End'){
+            steps{
+                echo 'Pipeline completed.'
+            }
+        }
     }
 }
